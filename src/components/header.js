@@ -1,8 +1,8 @@
+/** @jsx jsx */
 import { Flex, Box } from "theme-ui"
 import { Link } from "gatsby"
-
-/** @jsx jsx */
 import { jsx } from "theme-ui"
+
 const Header = () => {
   return (
     <Box>
@@ -49,5 +49,3 @@ const Header = () => {
 }
 
 export default Header
-
-//<Box>About</Box>

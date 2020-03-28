@@ -2,12 +2,11 @@ import React from "react"
 
 import Header from "./header"
 import Footer from "./footer"
-import { ThemeProvider, Box } from "theme-ui"
-import theme from "../theme"
+import { Box } from "theme-ui"
 
 const Layout = ({ children }) => {
   return (
-    <ThemeProvider theme={theme}>
+    <Box>
       <Header />
       <Box
         sx={{ margin: `0 auto`, maxWidth: 960, padding: `0 1.0875rem 1.45rem` }}
@@ -15,7 +14,7 @@ const Layout = ({ children }) => {
         {children}
       </Box>
       <Footer />
-    </ThemeProvider>
+    </Box>
   )
 }
 
