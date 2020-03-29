@@ -1,7 +1,7 @@
-import React from "react"
-
+/** @jsx jsx */
 import Layout from "../components/layout"
-import { Heading, Box, Text, Link } from "theme-ui"
+import { Heading, Box, Text } from "theme-ui"
+import { jsx } from "theme-ui"
 
 const Contact = () => {
   return (
@@ -31,7 +31,8 @@ const Contact = () => {
           Are you a developer / designer / operator and want to contribute?
         </Heading>
         <Text sx={{ mb: [3] }}>
-          Contact [name] or sign up with our friends at <Link href='https://www.usdigitalresponse.org/'>US Digital Response</Link>. 
+          Contact [name] or sign up with our friends 
+          at <a sx={{variant: "text.link"}} href='https://www.usdigitalresponse.org/'>US Digital Response</a>. 
           They can help route people here.
         </Text>
         <Heading as='h3' sx={{ my: [4], fontSize: [4] }}>
@@ -41,7 +42,12 @@ const Contact = () => {
           We want to collaborate closely with others curating data or building models, and help build a shared knowledge base. 
           You can start contributing to our public FAQ immediately, or contact [name].
         </Text>
-        
+        <Heading as='h3' sx={{ my: [4], fontSize: [4] }}>
+          Are you a funder?
+        </Heading>
+        <Text sx={{ mb: [3] }}>
+          Please reach out! We'll need support. Contact [name].
+        </Text>
       </Box>
     </Layout>
   )

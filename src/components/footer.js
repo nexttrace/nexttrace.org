@@ -1,14 +1,14 @@
-import React from "react"
-
+/** @jsx jsx */
 import { Box } from "theme-ui"
+import { jsx } from "theme-ui"
 
 const Footer = () => {
   return (
     <Box
-      style={{
-        margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
+      sx={{
+        m: `0 auto`,
+        p: `1.45rem 1.0875rem`,
+        maxWidth: 960
       }}
     >
       © NextTrace 2020 - Present

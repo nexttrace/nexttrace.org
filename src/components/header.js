@@ -39,11 +39,41 @@ const Header = () => {
               },
               textDecoration: "none",
               fontSize: [2],
-              fontWeight: "bold",
-              mx: [3]
+              fontWeight: "bold"
             }}
           >
-            About
+            What we do
+          </Link>
+          <Link
+            to="/team"
+            sx={{
+              color: "inherit",
+              "&.active": {
+                color: "primary",
+              },
+              textDecoration: "none",
+              fontSize: [2],
+              fontWeight: "bold",
+              ml: [3],
+              mr: [3]
+            }}
+          >
+            Who we are
+          </Link>
+          <Link
+            to="/faq"
+            sx={{
+              color: "inherit",
+              "&.active": {
+                color: "primary",
+              },
+              textDecoration: "none",
+              fontSize: [2],
+              fontWeight: "bold",
+              mr: [3]
+            }}
+          >
+            FAQ
           </Link>
           <Link
             to="/contact"

@@ -1,7 +1,8 @@
-import React from "react"
-
+/** @jsx jsx */
 import Layout from "../components/layout"
-import { Heading, Box, Text, Grid, Link } from "theme-ui"
+import { Heading, Box, Text, Grid } from "theme-ui"
+import { Link } from "gatsby"
+import { jsx } from "theme-ui"
 
 const Index = () => {
   return (
@@ -9,7 +10,7 @@ const Index = () => {
       <Heading as="h1" sx={{ my: [5], fontSize: [7] }}>
         Controlling COVID-19
       </Heading>
-      <Box sx={{ maxWidth: "40em", my: [5] }}>
+      <Box sx={{ maxWidth: "40em", my: [4] }}>
         <Heading as="h3" sx={{ fontSize: [4], lineHeight: "body", mb: [5] }}>
           NextTrace coordinates test results and tracing to enable public health
           decisions.
@@ -25,44 +26,43 @@ const Index = () => {
           scale, using modern technology. But it will take centralization and
           coordination.
         </Text>
-      </Box>
-      <Box>
         <Heading as="h3" sx={{ fontSize: [4], fontWeight: "bold", my: 4 }}>
           Here's how we do it.
         </Heading>
+        <Text sx={{mb: [3]}}>
+          A massive rollout of diagnostic and serological testing will soon be available.
+          NextTrace will curate data and build tools to help guide decision makers and coordinate the response. 
+          We will do it collaboratively, working with existing efforts and sharing best practices.
+        </Text>
+        <Text>
+          Read more about <Link to="/about" sx={{variant: "text.link", cursor: "pointer"}}>what we do</Link>.
+        </Text>
       </Box>
-      <Grid gap={5} columns={[1, 2, 3]} sx={{ my: [4] }}>
+      <Grid gap={5} columns={[1, 2, 3]} sx={{ my: [2] }}>
         <Box>
-          <Text sx={{ fontSize: 2, fontWeight: "bold", my: 2 }}>Test</Text>
+          <Text sx={{ fontSize: 3, fontWeight: "bold", my: 2 }}>Test</Text>
           <Text>
-            We validate, organize, and recommend diagnostic data by working
-            directly with commercial, state, and academic testing labs. 
-            We will coordinate with existing efforts to 
-            ensure integration and harmonization.
+            We validate and organize diagnostic data, working
+            with commercial, state, and academic testing labs. 
           </Text>
         </Box>
         <Box>
-          <Text sx={{ fontSize: 2, fontWeight: "bold", my: 2 }}>Trace</Text>
+          <Text sx={{ fontSize: 3, fontWeight: "bold", my: 2 }}>Trace</Text>
           <Text>
-            We are building a tracing platform to integrate test results
-            (positive and negative), sequences, syndromic surveillance, and
-            serology. We will bootstrap from existing tools where possible,
-            and iteratively build out use cases, software, and data operations.
+            We build tracing software to integrate test results, sequences, 
+            syndromic surveillance, and serology.
           </Text>
         </Box>
         <Box>
-          <Text sx={{ fontSize: 2, fontWeight: "bold", my: 2 }}>Guide</Text>
+          <Text sx={{ fontSize: 3, fontWeight: "bold", my: 2 }}>Guide</Text>
           <Text>
-            We provide state and local decision makers with access to quality, 
-            vetted tools that can target interventions based on tracing. 
-            To build models, we bring epidemiologists together to share best practices
-            and use the best available data.
+            We communicate and validate best practices and tools to state and local decision makers.
           </Text>
         </Box>
       </Grid>
       <Box>
         <Heading as="h3" sx={{ fontSize: [4], my: [5] }}>
-          Follow us <Link href="https://twitter.com/nexttrace">@NextTrace</Link>{" "}
+          Follow us <a sx={{variant: "text.link"}} href="https://twitter.com/nexttrace">@NextTrace</a>
         </Heading>
       </Box>
     </Layout>

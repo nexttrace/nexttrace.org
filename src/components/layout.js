@@ -1,9 +1,9 @@
+/** @jsx jsx */
 import React from "react"
-
 import Header from "./header"
 import Footer from "./footer"
 import Seo from "./seo"
-import { Box } from "theme-ui"
+import { jsx, Box } from "theme-ui"
 
 const Layout = ({ children }) => {
   return (
