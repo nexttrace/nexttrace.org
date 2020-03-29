@@ -35,28 +35,28 @@ const Index = () => {
         <Box>
           <Text sx={{ fontSize: 2, fontWeight: "bold", my: 2 }}>Test</Text>
           <Text>
-            We will validate, organize, and recommend diagnostic data by working
-            with existing efforts and also directly with commercial, state, and
-            academic testing labs. Coordination will ensure integration and
-            harmonization.
+            We validate, organize, and recommend diagnostic data by working
+            directly with commercial, state, and academic testing labs. 
+            We will coordinate with existing efforts to 
+            ensure integration and harmonization.
           </Text>
         </Box>
         <Box>
           <Text sx={{ fontSize: 2, fontWeight: "bold", my: 2 }}>Trace</Text>
           <Text>
-            We will build a tracing platform that integrates test results
+            We are building a tracing platform to integrate test results
             (positive and negative), sequences, syndromic surveillance, and
-            serology. We will bootstrap by coordinating with existing efforts,
-            and iteratively build out software, operations, and use cases.
+            serology. We will bootstrap from existing tools where possible,
+            and iteratively build out use cases, software, and data operations.
           </Text>
         </Box>
         <Box>
           <Text sx={{ fontSize: 2, fontWeight: "bold", my: 2 }}>Guide</Text>
           <Text>
-            We will coordinate with academic labs building models and ensure
-            they have the best data to work from. We will provide state and
-            local decision makers with access to quality, vetted tools and data
-            that can target interventions based on tracing.
+            We provide state and local decision makers with access to quality, 
+            vetted tools that can target interventions based on tracing. 
+            To build models, we bring epidemiologists together to share best practices
+            and use the best available data.
           </Text>
         </Box>
       </Grid>
