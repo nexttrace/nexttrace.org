@@ -1,6 +1,6 @@
 import React from "react"
 
-import { Flex, Box } from "theme-ui"
+import { Box } from "theme-ui"
 
 const Footer = () => {
   return (

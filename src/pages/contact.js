@@ -1,7 +1,7 @@
 import React from "react"
 
 import Layout from "../components/layout"
-import { Heading, Box, Text, Grid, Link } from "theme-ui"
+import { Heading, Box, Text, Link } from "theme-ui"
 
 const Contact = () => {
   return (
