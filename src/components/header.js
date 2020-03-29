@@ -29,20 +29,37 @@ const Header = () => {
         >
           NextTrace
         </Link>
-        <Link
-          to="/about"
-          sx={{
-            color: "inherit",
-            "&.active": {
-              color: "primary",
-            },
-            textDecoration: "none",
-            fontSize: [2],
-            fontWeight: "bold",
-          }}
-        >
-          About
-        </Link>
+        <Box>
+          <Link
+            to="/about"
+            sx={{
+              color: "inherit",
+              "&.active": {
+                color: "primary",
+              },
+              textDecoration: "none",
+              fontSize: [2],
+              fontWeight: "bold",
+              mx: [3]
+            }}
+          >
+            About
+          </Link>
+          <Link
+            to="/contact"
+            sx={{
+              color: "inherit",
+              "&.active": {
+                color: "primary",
+              },
+              textDecoration: "none",
+              fontSize: [2],
+              fontWeight: "bold",
+            }}
+          >
+            Contact
+          </Link>
+        </Box>
       </Flex>
     </Box>
   )

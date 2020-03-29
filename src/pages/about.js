@@ -1,7 +1,7 @@
 import React from "react"
 
 import Layout from "../components/layout"
-import { Heading, Box, Text } from "theme-ui"
+import { Heading, Box, Text, Link } from "theme-ui"
 
 const About = () => {
   return (
@@ -12,8 +12,7 @@ const About = () => {
       <Box sx={{ maxWidth: "40em", my: [5] }}>
         <Text sx={{ mb: [3] }}>
           Project lead Trevor Bedford is at the forefront of infectious disease
-          modeling, computation and genomics. He is co-founder of the Nextstrain
-          project which has centralized analysis of COVID-19 genomic data,
+          modeling, computation and genomics. He is co-founder of the <Link href="https://nextstrain.org/">NextStrain</Link> project which has centralized analysis of COVID-19 genomic data,
           providing a view into the pandemic that would have been missing
           otherwise. His work with the Seattle Flu Study revealed community
           spread of COVID-19 that was missed by traditional surveillance and his
