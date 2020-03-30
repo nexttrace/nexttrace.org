@@ -1,7 +1,8 @@
 /** @jsx jsx */
+import React from "react"
 import Layout from "../components/layout"
-import { Heading, Box, Text, Grid } from "theme-ui"
-import { Link } from "gatsby"
+import { Heading, Box, Text, Grid, Link } from "theme-ui"
+import { Link as GatsbyLink } from "gatsby"
 import { jsx } from "theme-ui"
 
 const Index = () => {
@@ -35,7 +36,7 @@ const Index = () => {
           We will do it collaboratively, working with existing efforts and sharing best practices.
         </Text>
         <Text>
-          Read more about <Link to="/about" sx={{variant: "text.link", cursor: "pointer"}}>what we do</Link>.
+          Read more about <GatsbyLink sx={{ textDecoration: "none" }} to="/about"><Link>what we do</Link></GatsbyLink>.
         </Text>
       </Box>
       <Grid gap={5} columns={[1, 2, 3]} sx={{ my: [2] }}>
@@ -62,7 +63,7 @@ const Index = () => {
       </Grid>
       <Box>
         <Heading as="h3" sx={{ fontSize: [4], my: [5] }}>
-          Follow us <a sx={{variant: "text.link"}} href="https://twitter.com/nexttrace">@NextTrace</a>
+          Follow us <Link href="https://twitter.com/nexttrace">@NextTrace</Link>
         </Heading>
       </Box>
     </Layout>

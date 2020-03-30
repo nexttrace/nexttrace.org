@@ -38,6 +38,18 @@ export default {
       fontFamily: "body",
       lineHeight: "body",
       fontWeight: "body",
+    },
+    a: {
+      color: "primary",
+      "&:active": {
+        color: "primary",
+      },
+      "&:hover": {
+        color: "secondary"
+      },
+      textDecoration: "none",
+      fontWeight: "bold",
+      cursor: "pointer"
     }
   },
 }
