@@ -18,8 +18,8 @@ const Contact = () => {
           Are you a state-level public health or government official?
         </Heading>
         <Text sx={{ mb: [3] }}>
-          Providing valuable information to you is our highest priority. Fill out the form, or email 
-          [name] directly. 
+          Providing valuable information to you is our highest priority. Fill out the form, 
+          or <Link href="mailto:hello@nexttrace.org">email us</Link> directly. 
         </Text>
         <Heading as='h3' sx={{ my: [4], fontSize: [4] }}>
           Are you involved in another COVID-19 software or data project and want to collaborate?
@@ -46,7 +46,7 @@ const Contact = () => {
           Are you a funder?
         </Heading>
         <Text sx={{ mb: [3] }}>
-          Please reach out! We'll need support. Contact [name].
+          Please reach out! We'll need support. You can <Link href="mailto:hello@nexttrace.org">email us</Link> directly.
         </Text>
       </Box>
     </Layout>
