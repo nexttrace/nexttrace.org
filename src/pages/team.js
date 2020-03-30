@@ -41,7 +41,7 @@ const Team = () => {
           Partners
         </Heading>
         <Text sx={{ mb: [3] }}>
-          We're not doing this alone. [NEED TO FILL IN]
+          We're not doing this alone. [Need to fill in]
         </Text>
       </Box>
     </Layout>
