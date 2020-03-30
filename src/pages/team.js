@@ -1,7 +1,6 @@
-/** @jsx jsx */
+import React from "react"
 import Layout from "../components/layout"
-import { Heading, Box, Text } from "theme-ui"
-import { jsx } from "theme-ui"
+import { Heading, Box, Text, Link } from "theme-ui"
 
 const Team = () => {
   return (
@@ -14,9 +13,9 @@ const Team = () => {
           Lead
         </Heading>
         <Text sx={{ mb: [3] }}>
-          Project lead <a href="https://twitter.com/trvrb" sx={{variant: "text.link"}}>Trevor Bedford</a> is 
+          Project lead <Link href="https://twitter.com/trvrb">Trevor Bedford</Link> is 
           at the forefront of infectious disease modeling, computation and genomics. He is co-founder of 
-          the <a sx={{variant: "text.link"}} href="https://nextstrain.org/">NextStrain</a> project 
+          the <Link href="https://nextstrain.org/">NextStrain</Link> project 
           which has centralized analysis of COVID-19 genomic data,
           providing a view into the pandemic that would have been missing
           otherwise. His work with the Seattle Flu Study revealed community
@@ -30,7 +29,13 @@ const Team = () => {
         <Text sx={{ mb: [3] }}>
           We will soon have dedicated staff for this new effort, focused on operational scale out, 
           technical infrastructure, and community engagement. To we get started,
-          we are leveraging help from a volunteer team, including [name] [name] [name].
+          we are leveraging help from a volunteer team, including 
+          {" "}<Link href="https://twitter.com/alexandraphelan">Alex Phelan</Link>, 
+          {" "}<Link href="https://twitter.com/cmyeaton">Caitlin Rivers</Link>, 
+          {" "}<Link href="http://misms.net/staff/cecile-viboud/">Cecile Viboud</Link>, 
+          {" "}<Link href="https://twitter.com/dylanbgeorge">Dylan George</Link>, 
+          {" "}<Link href="https://twitter.com/thefreemanlab">Jeremy Freeman</Link>,
+          and <Link href="https://twitter.com/colinmegill">Colin Megill</Link>.
         </Text>
          <Heading as="h3" sx={{ fontSize: [4], fontWeight: "bold", my: 4 }}>
           Partners
