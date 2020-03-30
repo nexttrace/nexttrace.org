@@ -32,7 +32,7 @@ const Index = () => {
         </Heading>
         <Text sx={{mb: [3]}}>
           A massive rollout of diagnostic and serological testing is coming soon.
-          NextTrace aims to curate data and build tools that help guide decision makers and coordinate the response. 
+          We will help curate that data and build tools that guide targeted interventions. 
           We will do this collaboratively, working with existing efforts and sharing best practices as we go.
         </Text>
         <Text>
