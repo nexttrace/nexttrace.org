@@ -28,7 +28,7 @@ const Team = () => {
         </Heading>
         <Text sx={{ mb: [3] }}>
           We will soon have dedicated staff for this new effort, focused on operational scale out, 
-          technical infrastructure, and community engagement. To we get started,
+          technical infrastructure, and community engagement. To get started,
           we are leveraging help from a volunteer team, including 
           {" "}<Link href="https://twitter.com/alexandraphelan">Alex Phelan</Link>, 
           {" "}<Link href="https://twitter.com/cmyeaton">Caitlin Rivers</Link>, 
