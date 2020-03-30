@@ -23,14 +23,19 @@ export default {
     secondary: "#30c",
     muted: "#f6f6f6",
   },
-  text: {
-    link: {
-      color: "primary",
+  links: {
+    nav: {
+      color: "inherit",
       "&.active": {
         color: "primary",
       },
+      "&:hover": {
+        color: "secondary"
+      },
       textDecoration: "none",
-      fontWeight: "bold"
+      fontSize: [2],
+      fontWeight: "bold",
+      cursor: "pointer"
     }
   },
   styles: {

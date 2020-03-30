@@ -31,9 +31,9 @@ const Index = () => {
           Here's how we do it.
         </Heading>
         <Text sx={{mb: [3]}}>
-          A massive rollout of diagnostic and serological testing will soon be available.
-          NextTrace will curate data and build tools to help guide decision makers and coordinate the response. 
-          We will do it collaboratively, working with existing efforts and sharing best practices.
+          A massive rollout of diagnostic and serological testing is coming soon.
+          NextTrace aims to curate data and build tools that help guide decision makers and coordinate the response. 
+          We will do this collaboratively, working with existing efforts and sharing best practices as we go.
         </Text>
         <Text>
           Read more about <GatsbyLink sx={{ textDecoration: "none" }} to="/about"><Link>what we do</Link></GatsbyLink>.
@@ -43,21 +43,21 @@ const Index = () => {
         <Box>
           <Text sx={{ fontSize: 3, fontWeight: "bold", my: 2 }}>Test</Text>
           <Text>
-            We validate and organize diagnostic data, working
+            We will help validate and organize diagnostic and serological data, working
             with commercial, state, and academic testing labs. 
           </Text>
         </Box>
         <Box>
           <Text sx={{ fontSize: 3, fontWeight: "bold", my: 2 }}>Trace</Text>
           <Text>
-            We build tracing software to integrate test results, sequences, 
+            We will scope and build tracing software to integrate test results, sequences, 
             syndromic surveillance, and serology.
           </Text>
         </Box>
         <Box>
           <Text sx={{ fontSize: 3, fontWeight: "bold", my: 2 }}>Guide</Text>
           <Text>
-            We communicate and validate best practices and tools to state and local decision makers.
+            We will communicate and validate best practices and information to the state and local decision makers that need it.
           </Text>
         </Box>
       </Grid>

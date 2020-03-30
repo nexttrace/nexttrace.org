@@ -1,6 +1,7 @@
 /** @jsx jsx */
-import { Flex, Box } from "theme-ui"
-import { Link } from "gatsby"
+import React from "react"
+import { Flex, Box, Link } from "theme-ui"
+import { Link as GatsbyLink } from "gatsby"
 import { jsx } from "theme-ui"
 
 const Header = () => {
@@ -15,80 +16,13 @@ const Header = () => {
           justifyContent: "space-between",
         }}
       >
-        <Link
-          to="/"
-          sx={{
-            color: "inherit",
-            "&.active": {
-              color: "primary",
-            },
-            textDecoration: "none",
-            fontSize: [2],
-            fontWeight: "bold",
-          }}
-        >
-          NextTrace
-        </Link>
+        <GatsbyLink sx={{variant: "links.nav"}} to="/">NextTrace</GatsbyLink>
         <Box>
-          <Link
-            to="/about"
-            sx={{
-              color: "inherit",
-              "&.active": {
-                color: "primary",
-              },
-              textDecoration: "none",
-              fontSize: [2],
-              fontWeight: "bold"
-            }}
-          >
-            What we do
-          </Link>
-          <Link
-            to="/team"
-            sx={{
-              color: "inherit",
-              "&.active": {
-                color: "primary",
-              },
-              textDecoration: "none",
-              fontSize: [2],
-              fontWeight: "bold",
-              ml: [3],
-              mr: [3]
-            }}
-          >
-            Who we are
-          </Link>
-          <Link
-            to="/faq"
-            sx={{
-              color: "inherit",
-              "&.active": {
-                color: "primary",
-              },
-              textDecoration: "none",
-              fontSize: [2],
-              fontWeight: "bold",
-              mr: [3]
-            }}
-          >
-            FAQ
-          </Link>
-          <Link
-            to="/contact"
-            sx={{
-              color: "inherit",
-              "&.active": {
-                color: "primary",
-              },
-              textDecoration: "none",
-              fontSize: [2],
-              fontWeight: "bold",
-            }}
-          >
-            Contact
-          </Link>
+          <GatsbyLink sx={{variant: "links.nav", mr: [3]}} to="/about">What we do</GatsbyLink>
+          <GatsbyLink sx={{variant: "links.nav", mr: [3]}} to="/team">Who we are</GatsbyLink>
+          <GatsbyLink sx={{variant: "links.nav", mr: [3]}} to="/resources">Resources</GatsbyLink>
+          <GatsbyLink sx={{variant: "links.nav", mr: [3]}} to="/faq">FAQ</GatsbyLink>
+          <GatsbyLink sx={{variant: "links.nav"}} to="/contact">Contact</GatsbyLink>
         </Box>
       </Flex>
     </Box>
