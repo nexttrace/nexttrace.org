@@ -13,51 +13,53 @@ const Index = () => {
       </Heading>
       <Box sx={{ maxWidth: "40em", my: [4] }}>
         <Heading as="h3" sx={{ fontSize: [4], lineHeight: "body", mb: [5] }}>
-          NextTrace coordinates test results and tracing to enable public health
-          decisions.
+          NextTrace aims to coordinate test results and contact tracing to
+          enable public health decisions
         </Heading>
         <Text sx={{ mb: [3] }}>
           Strong social distancing, if widely adopted, works. But stopping
-          social distancing will cause a rebound due to a lack of population
-          immunity. And it may be impossible to maintain until we have a vaccine
-          without devastating our economy and society.
+          social distancing will cause a rebound in disease due to lack of
+          population immunity. And it may be impossible to maintain until we
+          have a vaccine without devastating our economy and society.
         </Text>
         <Text>
           We can manage this epidemic through contact tracing and isolation, at
-          scale, using modern technology. But it will take centralization and
-          coordination.
+          scale, using modern technology. But it will require coordination and
+          rapid innovation.
         </Text>
         <Heading as="h3" sx={{ fontSize: [4], fontWeight: "bold", my: 4 }}>
-          Here's how we do it.
+          Here's how we plan to do it
         </Heading>
         <Text sx={{mb: [3]}}>
-          A massive rollout of diagnostic and serological testing is coming soon.
-          We will help curate that data and build tools that guide targeted interventions. 
-          We will do this collaboratively, working with existing efforts and sharing best practices as we go.
+          A massive rollout of diagnostic and serological testing is on its way.
+          We will help curate that data and build tools that guide targeted
+          interventions. We will do this collaboratively, working with existing
+          efforts and sharing best practices as we go.
         </Text>
         <Text>
-          Read more about <GatsbyLink sx={{ textDecoration: "none" }} to="/about"><Link>what we do</Link></GatsbyLink>.
+          Read more about <GatsbyLink sx={{ textDecoration: "none" }} to="/about"><Link>what we are doing</Link></GatsbyLink>.
         </Text>
       </Box>
       <Grid gap={5} columns={[1, 2, 3]} sx={{ my: [2] }}>
         <Box>
           <Text sx={{ fontSize: 3, fontWeight: "bold", my: 2 }}>Test</Text>
           <Text>
-            We will help validate and organize diagnostic and serological data, working
-            with commercial, state, and academic testing labs. 
+            We will help organize and surface diagnostic and serological data,
+            working with commercial, state, and academic testing labs.
           </Text>
         </Box>
         <Box>
           <Text sx={{ fontSize: 3, fontWeight: "bold", my: 2 }}>Trace</Text>
           <Text>
-            We will scope and build tracing software to integrate test results, sequences, 
-            syndromic surveillance, and serology.
+            We will scope and build software for digital participatory contact
+            tracing to find and isolate cases earlier in their course of illness.
           </Text>
         </Box>
         <Box>
           <Text sx={{ fontSize: 3, fontWeight: "bold", my: 2 }}>Guide</Text>
           <Text>
-            We will communicate and validate best practices and information to the state and local decision makers that need it.
+            We will communicate best practices to state and local decision
+            makers to inform containment policies at the community level.
           </Text>
         </Box>
       </Grid>
