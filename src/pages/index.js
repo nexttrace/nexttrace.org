@@ -8,7 +8,7 @@ import { jsx } from "theme-ui"
 const Index = () => {
   return (
     <Layout>
-      <Heading as="h1" sx={{ my: [5], fontSize: [7] }}>
+      <Heading as="h1" sx={{ my: [5], fontSize: [6, null, 7] }}>
         Controlling COVID-19
       </Heading>
       <Box sx={{ maxWidth: "40em", my: [4] }}>

@@ -5,7 +5,7 @@ import { jsx, Heading, Box, Text } from "theme-ui"
 const About = () => {
   return (
     <Layout>
-      <Heading as="h1" sx={{ my: [5], fontSize: [7] }}>
+      <Heading as="h1" sx={{ my: [5], fontSize: [6, null, 7] }}>
         What we do
       </Heading>
       <Box sx={{ maxWidth: "40em", my: [5] }}>
@@ -41,7 +41,7 @@ const About = () => {
           However, these broad-scale interventions are necessarily blunt
           instruments and have massive societal costs. 
         </Text>
-        <Heading as="h3" sx={{ borderLeft: "solid", borderWidth: 4, borderColor: "text", 
+        <Heading as="h3" sx={{ borderLeft: "solid", borderWidth: 4, borderColor: "primary", 
           fontSize: [3], fontWeight: "bold", my: [4], pl: [4] }}>
           If we can move from broad-scale interventions to interventions targeted at just infected
           and exposed individuals we can achieve the same outcomes, but with

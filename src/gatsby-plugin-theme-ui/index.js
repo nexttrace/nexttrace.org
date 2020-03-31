@@ -19,9 +19,9 @@ export default {
   colors: {
     text: '#000',
     background: "#fff",
-    primary: "#07c",
-    secondary: "#30c",
-    muted: "#f6f6f6",
+    primary: "#67b533",
+    secondary: "#9DDB74",
+    muted: "#C9EBB3",
   },
   links: {
     nav: {
