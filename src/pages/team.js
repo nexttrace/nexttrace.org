@@ -17,7 +17,7 @@ const Team = () => {
           {" "} is at the forefront of infectious disease modeling, computation and
           genomics. He is co-founder of the
           {" "}<Link href="https://nextstrain.org/">Nextstrain</Link> project, which
-          has lead realt-time analysis of COVID-19 genomic data, providing a view
+          has lead real-time analysis of COVID-19 genomic data, providing a view
           into the pandemic that would have been absent otherwise. His work with
           the Seattle Flu Study revealed community spread of COVID-19 that was
           missed by traditional surveillance and his alerting bought the US critical
