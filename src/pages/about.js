@@ -65,12 +65,13 @@ const About = () => {
           resources for this traditional contact tracing to be more than a drop in the bucket relative
           to the amount of overall transmission occurring. 
         </Text>
-        <Heading as="h3" sx={{ borderLeft: "solid", borderWidth: 4, borderColor: "text", 
-          fontSize: [3], fontWeight: "bold", my: [4], pl: [4] }}>
-          Here, we propose to enable digital participatory contact tracing. There
-          are three components. 
+        <Heading as="h3" sx={{ fontSize: [4], fontWeight: "bold", my: [4] }}>
+          Here, we propose to enable digital participatory contact tracing. 
         </Heading>
-        <Heading as="h3" sx={{ fontSize: [4], fontWeight: "bold", my: 4 }}>
+        <Text>
+          There are three components. 
+        </Text>
+        <Heading as="h3" sx={{ fontSize: [3], fontWeight: "bold", my: 4 }}>
           Test
         </Heading>
         <Text>
@@ -85,7 +86,7 @@ const About = () => {
           Surveillance systems and participatory contact tracing can be built on
           top of this decentralized network. 
         </Text>
-        <Heading as="h3" sx={{ fontSize: [4], fontWeight: "bold", my: 4 }}>
+        <Heading as="h3" sx={{ fontSize: [3], fontWeight: "bold", my: 4 }}>
           Trace
         </Heading>
         <Text>
@@ -104,7 +105,7 @@ const About = () => {
           significantly impact an epidemic even once widespread community transmission has
           begun.  
         </Text>
-        <Heading as="h3" sx={{ fontSize: [4], fontWeight: "bold", my: 4 }}>
+        <Heading as="h3" sx={{ fontSize: [3], fontWeight: "bold", my: 4 }}>
           Guide
         </Heading>
         <Text>
@@ -117,12 +118,11 @@ const About = () => {
           guiding individual-level containment measures after exposure, we will use this
           platform to help inform containment policies at the community level.  
         </Text>
-        <Heading as="h3" sx={{ borderLeft: "solid", borderWidth: 4, borderColor: "text", 
-          fontSize: [3], fontWeight: "bold", my: [4], pl: [4] }}>
-          These are expansive and ambitious goals. But we are starting in a focused area. 
+        <Heading as="h3" sx={{ fontSize: [4], fontWeight: "bold", my: [4] }}>
+          These are expansive and ambitious goals. 
         </Heading>
         <Text>
-          We
+          But we are starting in a focused area. We
           propose to initiate development of this platform within a single
           community, rapidly iterating on the system and evaluating its
           effectiveness in guiding individual-level responses and
