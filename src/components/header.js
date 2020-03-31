@@ -40,7 +40,7 @@ class Header extends Component {
           <GatsbyLink><Image src={logo} sx={{width: 40, verticalAlign: "text-top", marginTop: "-10px", marginRight: "10px"}}></Image></GatsbyLink>
           <GatsbyLink sx={{variant: "links.nav"}} to="/">NextTrace</GatsbyLink>
         </Box>
-        <Box sx={{display: ['inherit', 'none', 'none']}}>
+        <Box sx={{display: ['inherit', 'none', 'none'], mt: "-4px"}}>
           <MenuButton onClick={ this.toggle } aria-label="Toggle Menu" />
         </Box>
         <Box sx={{display: ['none', 'inherit', 'inherit']}}>
