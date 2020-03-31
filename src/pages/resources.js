@@ -10,7 +10,7 @@ const FAQ = () => {
       </Heading>
       <Box sx={{ maxWidth: "40em", my: [5] }}>
         <Text sx={{ mb: [3] }}>
-          This is where we'll organize documents on data, tools, and best practices.
+          This is where we'll document data, tools, and best practices.
         </Text>
         <Text>
           More coming soon!
