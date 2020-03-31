@@ -52,7 +52,7 @@ class Header extends Component {
         </Box>
       </Flex>
       { expanded && 
-        <div sx={{position: "absolute", right: [3], width: "100%", height: "100%", background: "rgb(255,255,255,0.9)", textAlign: "right"}}>
+        <div sx={{position: "absolute", right: [3], width: "100%", height: "100%", background: "rgb(255,255,255,0.95)", textAlign: "right"}}>
           <GatsbyLink sx={{variant: "links.nav", fontSize: [4], display: "block"}} to="/about">What we do</GatsbyLink>
           <GatsbyLink sx={{variant: "links.nav", fontSize: [4], display: "block"}} to="/team">Who we are</GatsbyLink>
           <GatsbyLink sx={{variant: "links.nav", fontSize: [4], display: "block"}} to="/resources">Resources</GatsbyLink>
