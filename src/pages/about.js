@@ -15,7 +15,7 @@ const About = () => {
         <Text sx={{ mb: [3] }}>
           The COVID-19 epidemic, like all epidemics, is occurring because the
           disease is contagious enough that each infection, on average, results
-          in an additional 2 to3 further infections. This process continues on,
+          in an additional 2 to 3 further infections. This process continues on,
           yielding the patterns of exponential growth that we have seen repeated
           across many countries, states, and cities. To be successful, any
           intervention needs to bring this number of secondary transmissions
