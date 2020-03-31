@@ -54,8 +54,8 @@ const About = () => {
           tracing targets surveillance resources and  testing at individuals most likely to be
           positive, and also serves to test individuals early in the course of illness when isolation
           is most effective at reducing onward transmission. Testing exposed individuals may also
-          identify asymptomatic infections that would otherwise have gone undetected. However, <b>traditional 
-          approaches to contact tracing do not scale</b>; they rely on a huge investment in
+          identify asymptomatic infections that would otherwise have gone undetected. <b>However, traditional 
+          approaches to contact tracing do not scale</b>. They rely on a huge investment in
           time and labor in which public health staff conduct thousands of hours of phone interviews
           to assess symptoms and exposure history among the network of persons under investigation.
           Each new confirmed case requires many hours of detailed followup to fully interview
