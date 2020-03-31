@@ -30,7 +30,7 @@ export default {
         color: "primary",
       },
       "&:hover": {
-        color: "secondary"
+        color: "primary"
       },
       textDecoration: "none",
       fontSize: [2],

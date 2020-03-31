@@ -1,6 +1,6 @@
 /** @jsx jsx */
 import Layout from "../components/layout"
-import { jsx, Heading, Box, Text } from "theme-ui"
+import { jsx, Heading, Box, Text, Link } from "theme-ui"
 import { Link as GatsbyLink } from "gatsby"
 
 const About = () => {
@@ -143,8 +143,8 @@ const About = () => {
           made by others already.  Rather, we plan to collaborate with this
           emerging community. Our first steps will be a landscape analysis to
           ascertain which pieces of the stack most need our attention. If you’d
-          like to contribute, please <GatsbyLink to="/contact">get in
-          touch</GatsbyLink>.
+          like to contribute, please <GatsbyLink to="/contact" sx={{ textDecoration: "none" }}>
+          <Link>get in touch</Link></GatsbyLink>.
         </Text>
       </Box>
     </Layout>

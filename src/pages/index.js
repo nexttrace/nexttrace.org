@@ -40,25 +40,25 @@ const Index = () => {
           Read more about <GatsbyLink sx={{ textDecoration: "none" }} to="/about"><Link>what we are doing</Link></GatsbyLink>.
         </Text>
       </Box>
-      <Grid gap={5} columns={[1, 2, 3]} sx={{ my: [2] }}>
+      <Grid gap={[4, 5, 5]} columns={[1, 2, 3]} sx={{ my: [2] }}>
         <Box>
-          <Text sx={{ fontSize: 3, fontWeight: "bold", my: 2 }}>Test</Text>
+          <Text sx={{ fontSize: 3, fontWeight: "bold", my: [2] }}>Test</Text>
           <Text>
             We will help organize and surface diagnostic and serological data,
             working with commercial, state, and academic testing labs.
           </Text>
         </Box>
         <Box>
-          <Text sx={{ fontSize: 3, fontWeight: "bold", my: 2 }}>Trace</Text>
+          <Text sx={{ fontSize: 3, fontWeight: "bold", my: [2] }}>Trace</Text>
           <Text>
             We will scope and build software for digital participatory contact
             tracing to find and isolate cases earlier in their course of illness.
           </Text>
         </Box>
         <Box>
-          <Text sx={{ fontSize: 3, fontWeight: "bold", my: 2 }}>Guide</Text>
+          <Text sx={{ fontSize: 3, fontWeight: "bold", my: [2] }}>Guide</Text>
           <Text>
-            We will communicate best practices to state and local decision
+            We will deliver models and best practices to state and local decision
             makers to inform containment policies at the community level.
           </Text>
         </Box>

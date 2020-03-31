@@ -1,13 +1,29 @@
 /** @jsx jsx */
 import React from "react"
-import { Flex, Box, Link, Image } from "theme-ui"
+import { Component } from 'react'
+import { Flex, Box, Link, Image, MenuButton } from "theme-ui"
 import { Link as GatsbyLink } from "gatsby"
 import { jsx } from "theme-ui"
 import logo from "../logo.svg"
 
-const Header = () => {
-  return (
-    <Box>
+class Header extends Component {
+
+  constructor(props) {
+    super(props)
+    this.state = {expanded: false}
+    this.toggle = this.toggle.bind(this)
+  }
+
+  toggle() {
+    this.setState(state => ({
+      expanded: !state.expanded
+    }))
+  }
+
+  render () {
+    const { expanded } = this.state
+
+    return <Box>
       <Flex
         sx={{
           margin: `0 auto`,
@@ -24,7 +40,10 @@ const Header = () => {
           <GatsbyLink><Image src={logo} sx={{width: 40, verticalAlign: "text-top", marginTop: "-10px", marginRight: "10px"}}></Image></GatsbyLink>
           <GatsbyLink sx={{variant: "links.nav"}} to="/">NextTrace</GatsbyLink>
         </Box>
-        <Box>
+        <Box sx={{display: ['inherit', 'none', 'none']}}>
+          <MenuButton onClick={ this.toggle } aria-label="Toggle Menu" />
+        </Box>
+        <Box sx={{display: ['none', 'inherit', 'inherit']}}>
           <GatsbyLink sx={{variant: "links.nav", mr: [3]}} to="/about">What we do</GatsbyLink>
           <GatsbyLink sx={{variant: "links.nav", mr: [3]}} to="/team">Who we are</GatsbyLink>
           <GatsbyLink sx={{variant: "links.nav", mr: [3]}} to="/resources">Resources</GatsbyLink>
@@ -32,8 +51,17 @@ const Header = () => {
           <GatsbyLink sx={{variant: "links.nav"}} to="/contact">Contact</GatsbyLink>
         </Box>
       </Flex>
+      { expanded && 
+        <div sx={{position: "absolute", right: [3], width: "100px", background: "rgb(255,255,255,0.8)", textAlign: "right"}}>
+          <GatsbyLink sx={{variant: "links.nav", display: "block"}} to="/about">What we do</GatsbyLink>
+          <GatsbyLink sx={{variant: "links.nav", display: "block"}} to="/team">Who we are</GatsbyLink>
+          <GatsbyLink sx={{variant: "links.nav", display: "block"}} to="/resources">Resources</GatsbyLink>
+          <GatsbyLink sx={{variant: "links.nav", display: "block"}} to="/faq">FAQ</GatsbyLink>
+          <GatsbyLink sx={{variant: "links.nav", display: "block"}} to="/contact">Contact</GatsbyLink>
+        </div>
+      }
     </Box>
-  )
+  }
 }
 
 export default Header
