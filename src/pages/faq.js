@@ -23,6 +23,7 @@ const FAQ = () => {
           immediately, and will build the org responsibly as we go.
         </Text>
       </Box>
+      <i>More coming soon!</i>
     </Layout>
   )
 }
