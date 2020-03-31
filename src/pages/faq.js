@@ -5,7 +5,7 @@ import { jsx, Heading, Box, Text } from "theme-ui"
 const FAQ = () => {
   return (
     <Layout>
-      <Heading as="h1" sx={{ my: [5], fontSize: [7] }}>
+      <Heading as="h1" sx={{ my: [5], fontSize: [6, null, 7] }}>
         FAQ
       </Heading>
       <Box sx={{ maxWidth: "40em", my: [5] }}>
