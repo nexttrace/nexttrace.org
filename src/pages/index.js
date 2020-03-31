@@ -8,11 +8,11 @@ import { jsx } from "theme-ui"
 const Index = () => {
   return (
     <Layout>
-      <Heading as="h1" sx={{ my: [5], fontSize: [6, null, 7] }}>
+      <Heading as="h1" sx={{ my: [4, null, 5], fontSize: [6, null, 7] }}>
         Controlling COVID-19
       </Heading>
       <Box sx={{ maxWidth: "40em", my: [4] }}>
-        <Heading as="h3" sx={{ fontSize: [4], lineHeight: "body", mb: [5] }}>
+        <Heading as="h3" sx={{ fontSize: [4], lineHeight: "body", mb: [4, null, 5] }}>
           NextTrace aims to coordinate test results and contact tracing to
           enable public health decisions
         </Heading>
@@ -64,7 +64,7 @@ const Index = () => {
         </Box>
       </Grid>
       <Box>
-        <Heading as="h3" sx={{ fontSize: [4], my: [5] }}>
+        <Heading as="h3" sx={{ fontSize: [4], my: [4, 5, 5] }}>
           Follow us <Link href="https://twitter.com/nexttrace">@NextTrace</Link>
         </Heading>
       </Box>

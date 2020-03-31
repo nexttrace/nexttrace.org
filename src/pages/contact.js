@@ -5,10 +5,10 @@ import { Heading, Box, Text, Link } from "theme-ui"
 const Contact = () => {
   return (
     <Layout>
-      <Heading as="h1" sx={{ my: [5], fontSize: [6, null, 7] }}>
+      <Heading as="h1" sx={{ my: [4, null, 5], fontSize: [6, null, 7] }}>
         Contact
       </Heading>
-      <Box sx={{ maxWidth: '40em', my: [5] }}>
+      <Box sx={{ maxWidth: '40em', my: [4, null, 5] }}>
         <Text sx={{ mb: [3] }}>
           We're looking for collaborators, contributors, and users, and we're looking to move fast.
           We'll soon have a dedicated team, but for now we're mainly volunteers. Please fill out

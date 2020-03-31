@@ -6,10 +6,10 @@ import { Link as GatsbyLink } from "gatsby"
 const About = () => {
   return (
     <Layout>
-      <Heading as="h1" sx={{ my: [5], fontSize: [6, null, 7] }}>
+      <Heading as="h1" sx={{ my: [4, null, 5], fontSize: [6, null, 7] }}>
         What we do
       </Heading>
-      <Box sx={{ maxWidth: "40em", my: [5] }}>
+      <Box sx={{ maxWidth: "40em", my: [4, null, 5] }}>
         <Heading as="h3" sx={{ fontSize: [4], fontWeight: "bold", my: 4 }}>
           Background
         </Heading>
