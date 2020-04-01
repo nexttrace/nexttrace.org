@@ -13,15 +13,16 @@ const Team = () => {
           Lead
         </Heading>
         <Text sx={{ mb: [3] }}>
-          Project lead <Link href="https://twitter.com/trvrb">Trevor Bedford</Link>
-          {" "} is at the forefront of infectious disease modeling, computation and
-          genomics. He is co-founder of the
-          {" "}<Link href="https://nextstrain.org/">Nextstrain</Link> project, which
-          has lead real-time analysis of COVID-19 genomic data, providing a view
-          into the pandemic that would have been absent otherwise. His work with
-          the Seattle Flu Study revealed community spread of COVID-19 that was
-          missed by traditional surveillance and his alerting bought the US critical
-          time to mount a stronger outbreak response.
+          Project lead <Link href="https://twitter.com/trvrb">Trevor
+          Bedford</Link> {" "} at the Fred Hutchinson Cancer Research Center is
+          at the forefront of infectious disease modeling, computation and
+          genomics. He is co-founder of the {" "}<Link
+          href="https://nextstrain.org/">Nextstrain</Link> project, which has
+          lead real-time analysis of COVID-19 genomic data, providing a novel
+          view into the pandemic that would have been absent otherwise. His work
+          with the Seattle Flu Study revealed community spread of COVID-19 that
+          was missed by traditional surveillance and his alerting bought the US
+          critical time to mount a stronger outbreak response.
         </Text>
         <Heading as="h3" sx={{ fontSize: [4], fontWeight: "bold", my: 4 }}>
           Members
