@@ -13,7 +13,7 @@ const FAQ = () => {
           This is where we'll document data, tools, and best practices.
         </Text>
         <Text>
-          More coming soon!
+          <i>More coming soon!</i>
         </Text>
       </Box>
     </Layout>
