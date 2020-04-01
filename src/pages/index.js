@@ -27,7 +27,7 @@ const Index = () => {
           scale, using modern technology. But it will require coordination and
           rapid innovation.
         </Text>
-        <Heading as="h3" sx={{ fontSize: [4], fontWeight: "bold", my: 4 }}>
+        <Heading as="h3" sx={{ fontSize: [3], fontWeight: "bold", my: 4 }}>
           Here's how we plan to do it
         </Heading>
         <Text sx={{mb: [3]}}>
@@ -42,6 +42,7 @@ const Index = () => {
       </Box>
       <Grid gap={[4, 5, 5]} columns={[1, 2, 3]} sx={{ my: [2] }}>
         <Box>
+          <Box sx={{backgroundColor: "secondary", width: "20px", height: "20px", borderRadius: "20px"}}></Box>
           <Text sx={{ fontSize: 3, fontWeight: "bold", my: [2] }}>Test</Text>
           <Text>
             We will help organize and surface diagnostic and serological data,
@@ -49,6 +50,7 @@ const Index = () => {
           </Text>
         </Box>
         <Box>
+           <Box sx={{backgroundColor: "primary", width: "20px", height: "20px", borderRadius: "20px"}}></Box>
           <Text sx={{ fontSize: 3, fontWeight: "bold", my: [2] }}>Trace</Text>
           <Text>
             We will scope and build software for digital participatory contact
@@ -56,6 +58,7 @@ const Index = () => {
           </Text>
         </Box>
         <Box>
+           <Box sx={{backgroundColor: "muted", width: "20px", height: "20px", borderRadius: "20px"}}></Box>
           <Text sx={{ fontSize: 3, fontWeight: "bold", my: [2] }}>Guide</Text>
           <Text>
             We will deliver models and best practices to state and local decision
@@ -64,7 +67,7 @@ const Index = () => {
         </Box>
       </Grid>
       <Box>
-        <Heading as="h3" sx={{ fontSize: [4], my: [4, 5, 5] }}>
+        <Heading as="h3" sx={{ fontSize: [3], my: [4, 5, 5] }}>
           Follow us <Link href="https://twitter.com/nexttrace">@NextTrace</Link>
         </Heading>
       </Box>

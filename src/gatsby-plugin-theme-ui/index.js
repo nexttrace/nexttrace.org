@@ -19,9 +19,9 @@ export default {
   colors: {
     text: '#000',
     background: "#fff",
-    primary: "#67b533",
-    secondary: "#9DDB74",
-    muted: "#C9EBB3",
+    primary: "#62B0FA",
+    secondary: "#f3d160",
+    muted: "#fbaf86",
   },
   links: {
     nav: {
@@ -50,7 +50,10 @@ export default {
         color: "primary",
       },
       "&:hover": {
-        color: "secondary"
+        color: "primary",
+        borderBottom: "solid",
+        borderWidth: 2,
+        borderColor: "primary"
       },
       textDecoration: "none",
       fontWeight: "bold",
