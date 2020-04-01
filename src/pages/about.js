@@ -7,7 +7,7 @@ const About = () => {
   return (
     <Layout>
       <Heading as="h1" sx={{ my: [4, null, 5], fontSize: [6, null, 7] }}>
-        What we do
+        What we plan
       </Heading>
       <Box sx={{ maxWidth: "40em", my: [4, null, 5] }}>
         <Heading as="h3" sx={{ fontSize: [4], fontWeight: "bold", my: 4 }}>
@@ -70,7 +70,7 @@ const About = () => {
           amount of overall transmission occurring.
         </Text>
         <Heading as="h3" sx={{ fontSize: [4], fontWeight: "bold", my: [4] }}>
-          Here, we propose to enable digital participatory contact tracing.
+          Here's how we plan to enable digital participatory contact tracing.
         </Heading>
         <Text>
           There are three components.

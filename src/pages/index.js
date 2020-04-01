@@ -37,7 +37,7 @@ const Index = () => {
           efforts and sharing best practices as we go.
         </Text>
         <Text>
-          Read more about <GatsbyLink sx={{ textDecoration: "none" }} to="/about"><Link>what we are doing</Link></GatsbyLink>.
+          Read more about <GatsbyLink sx={{ textDecoration: "none" }} to="/about"><Link>what we are planning</Link></GatsbyLink>.
         </Text>
       </Box>
       <Grid gap={[4, 5, 5]} columns={[1, 2, 3]} sx={{ my: [2] }}>
