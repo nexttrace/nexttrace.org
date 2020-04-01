@@ -49,7 +49,7 @@ const About = () => {
           hardship.
         </Heading>
         <Text sx={{ mb: [3] }}>
-          <b>Contact tracing</b> is a targeted intervention proven to reduce
+          Contact tracing is a targeted intervention proven to reduce
           transmission and curb an infectious disease outbreak. By identifying
           possible exposures of an index case, the exposed individuals can be
           tested and isolated in the event that they are also infected.
@@ -60,8 +60,8 @@ const About = () => {
           in the course of illness when isolation is most effective at reducing
           transmission. Testing exposed individuals may also identify
           asymptomatic infections that would otherwise have gone undetected.{" "}
-          <b>However, traditional approaches to contact tracing do not
-          scale</b>.
+          However, traditional approaches to contact tracing do not
+          scale.
         </Text>
         <Text sx={{ mb: [3] }}>
           Traditional approaches rely on a huge investment in time and labor on
