@@ -17,10 +17,10 @@ const Index = () => {
           enable public health decisions
         </Heading>
         <Text sx={{ mb: [3] }}>
-          Strong social distancing, if widely adopted, works. But stopping
-          social distancing will cause a rebound in disease due to lack of
-          population immunity. And it may be impossible to maintain until we
-          have a vaccine without devastating our economy and society.
+          Social distancing, if widely adopted, works. Unfortunately, it's
+          unsustainable. If we continue distancing, it may devastate our economy
+          and society. But if we stop before a vaccine is ready, it will cause a
+          rebound in infections because not enough of us are immune.
         </Text>
         <Text>
           We can manage this epidemic through contact tracing and isolation, at
