@@ -36,11 +36,11 @@ class Header extends Component {
           justifyContent: "space-between",
         }}
       >
-        <Box>
+        <Box sx={{zIndex: 1000}}>
           <GatsbyLink><Image src={logo} sx={{width: 40, verticalAlign: "text-top", marginTop: "-10px", marginRight: "10px"}}></Image></GatsbyLink>
           <GatsbyLink sx={{variant: "links.nav"}} to="/">NextTrace</GatsbyLink>
         </Box>
-        <Box sx={{display: ['inherit', 'none', 'none'], mt: "-4px"}}>
+        <Box sx={{display: ['inherit', 'none', 'none'], zIndex: 1000, position: "fixed", top: "26px", right: "20px", backgroundColor: "white"}}>
           <MenuButton onClick={ this.toggle } aria-label="Toggle Menu" />
         </Box>
         <Box sx={{display: ['none', 'inherit', 'inherit']}}>
@@ -52,12 +52,13 @@ class Header extends Component {
         </Box>
       </Flex>
       { expanded && 
-        <div sx={{position: "absolute", right: [3], width: "100%", height: "100%", background: "rgb(255,255,255,0.95)", textAlign: "right"}}>
-          <GatsbyLink sx={{variant: "links.nav", fontSize: [4], display: "block"}} to="/about">Our plan</GatsbyLink>
-          <GatsbyLink sx={{variant: "links.nav", fontSize: [4], display: "block"}} to="/team">Our team</GatsbyLink>
-          <GatsbyLink sx={{variant: "links.nav", fontSize: [4], display: "block"}} to="/resources">Resources</GatsbyLink>
-          <GatsbyLink sx={{variant: "links.nav", fontSize: [4], display: "block"}} to="/faq">FAQ</GatsbyLink>
-          <GatsbyLink sx={{variant: "links.nav", fontSize: [4], display: "block"}} to="/contact">Contact</GatsbyLink>
+        <div sx={{position: "absolute", right: [3], position: "fixed", top: "0px", 
+                  width: "100%", height: "100%", background: "rgb(255,255,255,0.95)", textAlign: "right"}}>
+          <GatsbyLink sx={{variant: "links.nav", fontSize: [4], display: "block", mr: "8px", mt: "70px"}} to="/about">Our plan</GatsbyLink>
+          <GatsbyLink sx={{variant: "links.nav", fontSize: [4], display: "block", mr: "8px"}} to="/team">Our team</GatsbyLink>
+          <GatsbyLink sx={{variant: "links.nav", fontSize: [4], display: "block", mr: "8px"}} to="/resources">Resources</GatsbyLink>
+          <GatsbyLink sx={{variant: "links.nav", fontSize: [4], display: "block", mr: "8px"}} to="/faq">FAQ</GatsbyLink>
+          <GatsbyLink sx={{variant: "links.nav", fontSize: [4], display: "block", mr: "8px"}} to="/contact">Contact</GatsbyLink>
         </div>
       }
     </Box>
