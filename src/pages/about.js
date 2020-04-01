@@ -7,7 +7,7 @@ const About = () => {
   return (
     <Layout>
       <Heading as="h1" sx={{ my: [4, null, 5], fontSize: [6, null, 7] }}>
-        What we plan
+        Our plan
       </Heading>
       <Box sx={{ maxWidth: "40em", my: [4, null, 5] }}>
         <Heading as="h3" sx={{ fontSize: [4], fontWeight: "bold", my: 4 }}>
@@ -88,7 +88,8 @@ const About = () => {
           decentralized reporting system in which any lab performing diagnostic
           testing can broadcast test results in an anonymized fashion.
           Surveillance systems and participatory contact tracing can be built on
-          top of this decentralized network.
+          top of this decentralized network. Additionally, we propose a wide-scale 
+          roll out of serological testing that would determine someone’s immune status.
         </Text>
         <Heading as="h3" sx={{ fontSize: [3], fontWeight: "bold", my: 4 }}>
           Trace
@@ -102,7 +103,7 @@ const About = () => {
           possible exposure events while ensuring that privacy is preserved and
           data is secure. The app / online platform would essentially conduct a
           coarse version of what expert epidemiologists do with interviews; it
-          would build a contact history for the confirmed and registered case,
+          would build a contact history for the registered case,
           listing out contact events with other individuals that could
           potentially have resulted in transmission. While this automated system
           would be less exact than expert interviews and daily visits to exposed
@@ -118,8 +119,8 @@ const About = () => {
           interactions and exposure events, understanding high resolution
           transmission patterns on a broad scale would allow us to characterize
           the heterogeneity of the epidemic in different areas. While we all are
-          facing the same disease, variable population densities, use of public
-          transport, and age structures will create subtly different
+          facing the same disease, variable levels of immunity, population densities,  
+          and age structures will create subtly different
           environments for transmission. Therefore, in addition to guiding
           individual-level containment measures after exposure, we will use this
           platform to help inform containment policies at the community level.

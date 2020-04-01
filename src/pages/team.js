@@ -6,7 +6,7 @@ const Team = () => {
   return (
     <Layout>
       <Heading as="h1" sx={{ my: [4, null, 5], fontSize: [6, null, 7] }}>
-        Who we are
+        Our team
       </Heading>
       <Box sx={{ maxWidth: "40em", my: [4, null, 5] }}>
         <Heading as="h3" sx={{ fontSize: [4], fontWeight: "bold", my: 4 }}>

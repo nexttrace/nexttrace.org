@@ -44,8 +44,8 @@ class Header extends Component {
           <MenuButton onClick={ this.toggle } aria-label="Toggle Menu" />
         </Box>
         <Box sx={{display: ['none', 'inherit', 'inherit']}}>
-          <GatsbyLink sx={{variant: "links.nav", mr: [3]}} to="/about">What we plan</GatsbyLink>
-          <GatsbyLink sx={{variant: "links.nav", mr: [3]}} to="/team">Who we are</GatsbyLink>
+          <GatsbyLink sx={{variant: "links.nav", mr: [3]}} to="/about">Our plan</GatsbyLink>
+          <GatsbyLink sx={{variant: "links.nav", mr: [3]}} to="/team">Our team</GatsbyLink>
           <GatsbyLink sx={{variant: "links.nav", mr: [3]}} to="/resources">Resources</GatsbyLink>
           <GatsbyLink sx={{variant: "links.nav", mr: [3]}} to="/faq">FAQ</GatsbyLink>
           <GatsbyLink sx={{variant: "links.nav"}} to="/contact">Contact</GatsbyLink>
@@ -53,8 +53,8 @@ class Header extends Component {
       </Flex>
       { expanded && 
         <div sx={{position: "absolute", right: [3], width: "100%", height: "100%", background: "rgb(255,255,255,0.95)", textAlign: "right"}}>
-          <GatsbyLink sx={{variant: "links.nav", fontSize: [4], display: "block"}} to="/about">What we plan</GatsbyLink>
-          <GatsbyLink sx={{variant: "links.nav", fontSize: [4], display: "block"}} to="/team">Who we are</GatsbyLink>
+          <GatsbyLink sx={{variant: "links.nav", fontSize: [4], display: "block"}} to="/about">Our plan</GatsbyLink>
+          <GatsbyLink sx={{variant: "links.nav", fontSize: [4], display: "block"}} to="/team">Our team</GatsbyLink>
           <GatsbyLink sx={{variant: "links.nav", fontSize: [4], display: "block"}} to="/resources">Resources</GatsbyLink>
           <GatsbyLink sx={{variant: "links.nav", fontSize: [4], display: "block"}} to="/faq">FAQ</GatsbyLink>
           <GatsbyLink sx={{variant: "links.nav", fontSize: [4], display: "block"}} to="/contact">Contact</GatsbyLink>
