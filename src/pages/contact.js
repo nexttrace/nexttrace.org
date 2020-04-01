@@ -31,9 +31,7 @@ const Contact = () => {
           Are you a developer / designer / operator and want to contribute?
         </Heading>
         <Text sx={{ mb: [3] }}>
-          Fill our the form here with your skills and interests, or sign up with our friends
-          at <Link href='https://www.usdigitalresponse.org/'>US Digital Response</Link>,
-          who are helping route people to projects like this one.
+          Fill our the form here with your skills and interests.
         </Text>
         <Heading as='h3' sx={{ my: [4], fontSize: [3] }}>
           Are you an epidemiologist or scientist?
