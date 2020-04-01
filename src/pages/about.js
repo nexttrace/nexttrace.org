@@ -16,38 +16,35 @@ const About = () => {
         <Text sx={{ mb: [3] }}>
           The COVID-19 epidemic, like all epidemics, is occurring because the
           disease is contagious enough that each infection, on average, results
-          in an additional 2 to 3 further infections. This process continues on,
-          yielding the patterns of exponential growth that we have seen repeated
-          across many countries, states, and cities. To be successful, any
-          intervention needs to reduce this number of secondary transmissions.
+          in 2 to 3 further infections. This process creates the exponential
+          growth we have seen repeated across countries, states, and cities. Any
+          successful intervention must reduce this number of secondary
+          transmissions. 
         </Text>
         <Text sx={{ mb: [3] }}>
           Current broad-scale social distancing interventions aim to bring this
-          number down by decreasing the number of contacts that occur between
-          people across the population. These policies work under the premise
-          that, regardless of whether a person is infected or not, if people do
-          not encounter other individuals, they cannot pass on or receive the
-          infection. These interventions are coarse, and need to be, because we
-          don’t currently have highly accurate estimates of how many and which
-          people are infected. These interventions have been deployed across the
-          United States and many regions of the world, which points to a gap in
-          our current outbreak response: we need broader surveillance of
-          COVID-19 spread. A surveillance system is necessary both for measuring
-          the effect that these broad interventions are having and for refining
-          these containment policies such that they could be more targeted. A
-          highly effective surveillance system is critical for guiding social
-          distancing policies and for titrating their breadth against the
-          intensity of community spread.
+          number down by decreasing the number of contacts between people across
+          the population. These policies work because if people do not encounter
+          each other, they cannot spread infection, regardless of whether they
+          are infected or not. These interventions are coarse, and must be,
+          because we lack  accurate estimates of who is infected. The use of
+          social distancing across the United States and many regions of the
+          world reveals a gap in our outbreak response: we need broader
+          surveillance of COVID-19 spread. A surveillance system is necessary
+          both for measuring the effect of these broad interventions, and for
+          making these containment policies more targeted. We need a robust
+          surveillance system to guide social distancing policies and to adjust
+          them based on the intensity of community spread.
         </Text>
         <Text sx={{ mb: [3] }}>
-          Unfortunately, these broad-scale interventions are necessarily blunt
-          instruments and have massive societal costs.
+          Unfortunately, broad-scale social distancing is a blunt intervention
+          with massive societal and economic costs.
         </Text>
         <Heading as="h3" sx={{ borderLeft: "solid", borderWidth: 4, borderColor: "primary",
           fontSize: [3], fontWeight: "bold", my: [4], pl: [4] }}>
-          If we can move from broad-scale interventions to interventions targeted at just infected
-          and exposed individuals we can achieve the same outcomes, but with
-          much less societal hardship.
+          If we can move toward interventions targeted at infected and exposed
+          individuals we can achieve the same outcomes with less societal
+          hardship.
         </Heading>
         <Text sx={{ mb: [3] }}>
           <b>Contact tracing</b> is a targeted intervention proven to reduce
@@ -58,7 +55,7 @@ const About = () => {
           most likely to be positive, and also serves to test individuals early
           in the course of illness when isolation is most effective at reducing
           onward transmission. Testing exposed individuals may also identify
-          asymptomatic infections that would otherwise have gone undetected.
+          asymptomatic infections that would otherwise have gone undetected.{" "}
           <b>However, traditional approaches to contact tracing do not
           scale</b>. They rely on a huge investment in time and labor in which
           public health staff conduct thousands of hours of phone interviews to
