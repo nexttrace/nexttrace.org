@@ -41,7 +41,7 @@ const Team = () => {
         <Text sx={{ mb: [3] }}>
           We're not doing this alone. We have critical advising from
           {" "}<Link href="https://twitter.com/dylanbgeorge">Dylan George</Link> (In-Q-Tel),
-          {" "}<Link href="https://twitter.com/meyerslab">Lauren Meyers</Link> (UW Austin),
+          {" "}<Link href="https://twitter.com/meyerslab">Lauren Meyers</Link> (UT Austin),
           {" "}<Link href="https://twitter.com/alexandraphelan">Alex Phelan</Link> (Georgetown University),
           {" "}<Link href="https://twitter.com/cmyeaton">Caitlin Rivers</Link> (Johns Hopkins University),
           and <Link href="http://misms.net/staff/cecile-viboud/">Cecile Viboud</Link> (NIH Fogarty Center).
