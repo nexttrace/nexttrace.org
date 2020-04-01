@@ -27,8 +27,10 @@ const About = () => {
           the population. These policies work because if people do not encounter
           each other, they cannot spread infection, regardless of whether they
           are infected or not. These interventions are coarse, and must be,
-          because we lack  accurate estimates of who is infected. The use of
-          social distancing across the United States and many regions of the
+          because we lack  accurate estimates of who is infected. 
+        </Text>
+        <Text sx={{ mb: [3] }}>
+          The use of social distancing across the United States and many regions of the
           world reveals a gap in our outbreak response: we need broader
           surveillance of COVID-19 spread. A surveillance system is necessary
           both for measuring the effect of these broad interventions, and for
@@ -49,32 +51,34 @@ const About = () => {
         <Text sx={{ mb: [3] }}>
           <b>Contact tracing</b> is a targeted intervention proven to reduce
           transmission and curb an infectious disease outbreak. By identifying
-          possible exposures of an index case, the exposured individuals can be
-          tested and isolated in the event that they are also infected. Contact
-          tracing targets surveillance resources and  testing at individuals
+          possible exposures of an index case, the exposed individuals can be
+          tested and isolated in the event that they are also infected.
+        </Text>
+        <Text sx={{ mb: [3] }}>
+          Contact tracing targets surveillance resources and  testing at individuals
           most likely to be positive, and also serves to test individuals early
           in the course of illness when isolation is most effective at reducing
-          onward transmission. Testing exposed individuals may also identify
+          transmission. Testing exposed individuals may also identify
           asymptomatic infections that would otherwise have gone undetected.{" "}
           <b>However, traditional approaches to contact tracing do not
-          scale</b>. They rely on a huge investment in time and labor in which
-          public health staff conduct thousands of hours of phone interviews to
-          assess symptoms and exposure history among the network of persons
-          under investigation. Each new confirmed case requires many hours of
-          detailed followup to fully interview contacts. Because of this,
-          contact tracing is typically only conducted in the early “containment”
-          phase of an epidemic when there are few enough cases that public
-          health staff can keep up. Once widespread community transmission
-          occurs, there are simply not sufficient resources for this traditional
-          contact tracing to be more than a drop in the bucket relative to the
-          amount of overall transmission occurring.
+          scale</b>.
+        </Text>
+        <Text sx={{ mb: [3] }}>
+          Traditional approaches rely on a huge investment in time and labor on
+          the part of public health staff. Experts must conduct thousands of hours
+          of phone interviews, and each new confirmed case requires many hours
+          of detailed followup. 
+        </Text>
+        <Text>
+          Because of the effort required, contact tracing is typically only
+          conducted in the early “containment” phase of an epidemic when there
+          are few enough cases for public health staff to handle. Once
+          widespread community transmission occurs, there are simply not
+          enough resources to keep up.
         </Text>
         <Heading as="h3" sx={{ fontSize: [4], fontWeight: "bold", my: [4] }}>
-          Here's how we plan to enable digital participatory contact tracing.
+          The plan: digital participatory contact tracing
         </Heading>
-        <Text>
-          There are three components.
-        </Text>
         <Heading as="h3" sx={{ fontSize: [3], fontWeight: "bold", my: 4 }}>
           Test
         </Heading>
@@ -126,20 +130,26 @@ const About = () => {
           platform to help inform containment policies at the community level.
         </Text>
         <Heading as="h3" sx={{ fontSize: [4], fontWeight: "bold", my: [4] }}>
-          These are expansive and ambitious goals.
+          How we start
         </Heading>
-        <Text>
-          But we are starting in a focused area. We propose to initiate
+        <Text sx={{mb: [3] }}>
+          These are expansive and ambitious goals, but we are starting in a focused area. We propose to initiate
           development of this platform within a single community, rapidly
           iterating on the system and evaluating its effectiveness in guiding
           individual-level responses and community-level decision making before
-          scaling out more broadly. We recognize that there are a number of
+          scaling out more broadly.
+        </Text>
+        <Text sx={{mb: [3] }}>
+          We recognize that there are a number of
           other groups working on similar efforts towards digital contact
           tracing, including COVID Watch, TraceTogether, and Safe Paths, to name
           just three. It is critical that we scale up response efforts quickly
           and efficiently, and it is not our intention to duplicate progress
           made by others already.  Rather, we plan to collaborate with this
-          emerging community. Our first steps will be a landscape analysis to
+          emerging community.
+        </Text>
+        <Text>
+          Our first steps will be a landscape analysis to
           ascertain which pieces of the stack most need our attention. If you’d
           like to contribute, please <GatsbyLink to="/contact" sx={{ textDecoration: "none" }}>
           <Link>get in touch</Link></GatsbyLink>.
