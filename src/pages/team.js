@@ -32,6 +32,7 @@ const Team = () => {
           technical infrastructure, and community engagement. To get started,
           we are leveraging help from a volunteer team, including
           {" "}<Link href="https://twitter.com/alliblk">Alli Black</Link>,
+          {" "}<Link href="https://twitter.com/rebeccaegger">Rebecca Egger</Link>,
           {" "}<Link href="https://twitter.com/thefreemanlab">Jeremy Freeman</Link>,
           and <Link href="https://twitter.com/colinmegill">Colin Megill</Link>.
         </Text>
