@@ -25,9 +25,8 @@ const About = () => {
           Current broad-scale social distancing interventions aim to bring this
           number down by decreasing the number of contacts between people across
           the population. These policies work because if people do not encounter
-          each other, they cannot spread infection, regardless of whether they
-          are infected or not. These interventions are coarse, and must be,
-          because we lack accurate estimates of who is infected.
+          each other, they cannot spread infection. But current social distancing policies ask all people to stay home, not just people who are likely to be sick. In this way, social distancing is a broad intervention,
+          and we need it be this broad because we lack accurate estimates of who is infected.
         </Text>
         <Text sx={{ mb: [3] }}>
           The use of social distancing across the United States and many regions
@@ -54,15 +53,13 @@ const About = () => {
             pl: [4],
           }}
         >
-          If we can move toward interventions targeted at infected and exposed
-          individuals we can achieve the same outcomes with less societal
+          If we can move toward a system where we ask only infected and exposed
+          individuals to distance, we can achieve the same outcomes with less societal
           hardship.
         </Heading>
         <Text sx={{ mb: [3] }}>
-          Contact tracing is a targeted intervention proven to reduce
-          transmission and curb an infectious disease outbreak. By identifying
-          possible exposures of an index case, the exposed individuals can be
-          tested and isolated in the event that they are also infected.
+          The crux of that system is being able to find people who were exposed to the disease before they develop the disease. Contact tracing is a time-tested method for doing exactly this.
+          By asking a confirmed case about people they interacted with while they were infectious, you can build a list of people who were exposed to the disease, and may become infectious themselves. By identifying those exposed individuals early, you can ask them to isolate and link them to testing before the spread the disease to others.
         </Text>
         <Text sx={{ mb: [3] }}>
           Contact tracing targets surveillance resources and testing at
@@ -82,7 +79,7 @@ const About = () => {
         <Text>
           Because of the effort required, contact tracing is typically only
           conducted in the early “containment” phase of an epidemic when there
-          are few enough cases for public health staff to handle. Once
+          are fewer cases. Once
           widespread community transmission occurs, there are simply not enough
           resources to keep up.
         </Text>
@@ -93,7 +90,7 @@ const About = () => {
           Our work at present
         </Heading>
           <Text sx={{mb: [2]}}>
-            Our first deliverable is a survey-based contact tracing platform 
+            Our first deliverable is a survey-based contact tracing platform
             that can be deployed by public health officials around the United States.
           </Text>
           <Text sx={{mb: [2]}}>
@@ -108,7 +105,7 @@ const About = () => {
           Beyond simply developing a system that can monitor individual-level
           interactions and exposure events, understanding high resolution
           transmission patterns on a broad scale would allow us to characterize
-          the heterogeneity of the epidemic in different areas. While we all are
+          the heterogeneity of the epidemic in different areas. While we are all
           facing the same disease, variable levels of immunity, population
           densities, and age structures will create subtly different
           environments for transmission. Therefore, in addition to guiding
