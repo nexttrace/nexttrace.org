@@ -17,10 +17,10 @@ const Index = () => {
           to enable public health decisions
         </Heading>
         <Text sx={{ mb: [3] }}>
-          Social distancing, if widely adopted, works. Unfortunately, it's
-          unsustainable. If we continue distancing, it may devastate our society. 
+          Social distancing, when widely adopted, works. Unfortunately, it's
+          unsustainable. If we continue distancing, it may devastate our society.
           But if we stop before a vaccine is ready, it will cause a
-          rebound in infections because not enough of us are immune. 
+          rebound in infections because not enough of us are immune.
         </Text>
         <Text sx={{mb: [3]}}>
           We need another option.
@@ -29,23 +29,23 @@ const Index = () => {
           Contact tracing — at scale
         </Heading>
         <Text sx={{ mb: [3] }}>
-         We know interviewing infected individuals about who they came in contact with,
-         and encouraging them to isolate, works to slow the rate of an infection. This process, called {' '}
-         <Link href='https://en.wikipedia.org/wiki/Contact_tracing'><b>contact tracing</b></Link>, 
-         forms of the basis of classic epidemiological methods.
+         We know that interviewing infected individuals about who they came in contact with,
+         and encouraging those contacts to isolate before they can pass the disease on to others, slows down transmission. This process, called {' '}
+         <Link href='https://en.wikipedia.org/wiki/Contact_tracing'><b>contact tracing</b></Link>,
+         is a classic epidemiological technique used in public health for controlling various diseases, such as tuberculosis, HIV, and Ebola.
         </Text>
         <Text sx={{mb: [3]}}>
           We are developing a system for <b>survey-based contact tracing at
-          scale</b> that can be deployed by public health 
-          officials around the United States. Our approach does not require advanced 
-          location-based tracking, though can incorporate data from such 
-          systems as it becomes available. Read more about {' '}
+          scale</b> that can be deployed by public health
+          officials around the United States. Our approach does not require advanced
+          location-based tracking, though could incorporate data from such
+          systems as they become available. Read more about {' '}
           <GatsbyLink sx={{ textDecoration: "none" }} to="/about"><Link>our plan</Link></GatsbyLink>.
         </Text>
         <Text sx={{mb: [3]}}>
           We are a {' '}
-          <GatsbyLink sx={{ textDecoration: "none" }} to="/about"><Link>team</Link></GatsbyLink> of scientists, epidemiologists, 
-          and software developers. We are working collaboratively with 
+          <GatsbyLink sx={{ textDecoration: "none" }} to="/about"><Link>team</Link></GatsbyLink> of scientists, epidemiologists,
+          and software developers. We are working collaboratively with
           other efforts and sharing best practices as we go.
         </Text>
       </Box>
@@ -62,7 +62,7 @@ const Index = () => {
            <Box sx={{backgroundColor: "primary", width: "20px", height: "20px", borderRadius: "20px"}}></Box>
           <Text sx={{ fontSize: 3, fontWeight: "bold", my: [2] }}>Trace</Text>
           <Text>
-            We are building a scalable survey-based solution for contact
+            We are building a scalable survey-based approach to contact
             tracing to find and isolate cases earlier in their course of illness.
           </Text>
         </Box>
