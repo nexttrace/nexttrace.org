@@ -37,14 +37,16 @@ const Index = () => {
         <Text sx={{mb: [3]}}>
           We are developing a system for <b>survey-based contact tracing at
           scale</b> that can be deployed by public health 
-          officials around the United States. We are a {' '}
-          <GatsbyLink sx={{ textDecoration: "none" }} to="/about"><Link>team</Link></GatsbyLink> of scientists, epidemiologists, 
-          and software developers. Our approach does not require advanced location-based tracking, 
-          though can incorporate data from such systems as it becomes available. We are working 
-          collaboratively with other efforts and sharing best practices as we go.
+          officials around the United States. Our approach does not require advanced 
+          location-based tracking, though can incorporate data from such 
+          systems as it becomes available. Read more about {' '}
+          <GatsbyLink sx={{ textDecoration: "none" }} to="/about"><Link>our plan</Link></GatsbyLink>.  .
         </Text>
-        <Text>
-          Read more about <GatsbyLink sx={{ textDecoration: "none" }} to="/about"><Link>our plan</Link></GatsbyLink>.  
+        <Text sx={{mb: [3]}}>
+          We are a {' '}
+          <GatsbyLink sx={{ textDecoration: "none" }} to="/about"><Link>team</Link></GatsbyLink> of scientists, epidemiologists, 
+          and software developers. We are working collaboratively with 
+          other efforts and sharing best practices as we go.
         </Text>
       </Box>
       <Grid gap={[4, 5, 5]} columns={[1, 2, 3]} sx={{ my: [2] }}>
