@@ -30,16 +30,17 @@ const Index = () => {
         </Heading>
         <Text sx={{ mb: [3] }}>
          We know interviewing infected individuals about who they came in contact with,
-         and encouraging them to isolate, works to slow the rate of infection. This process, called {' '}
+         and encouraging them to isolate, works to slow the rate of an infection. This process, called {' '}
          <Link href='https://en.wikipedia.org/wiki/Contact_tracing'><b>contact tracing</b></Link>, 
          forms of the basis of classic epidemiological methods.
         </Text>
         <Text sx={{mb: [3]}}>
-          We are developing a system for survey-based <b>contact tracing at
+          We are developing a system for <b>survey-based contact tracing at
           scale</b> that can be deployed by public health 
-          officials around the country. We are a team of scientists, epidemiologists, 
+          officials around the United States. We are a {' '}
+          <GatsbyLink sx={{ textDecoration: "none" }} to="/about"><Link>team</Link></GatsbyLink> of scientists, epidemiologists, 
           and software developers. Our approach does not require advanced location-based tracking, 
-          hough can incorporate data from such systems as it becomes available. We are working 
+          though can incorporate data from such systems as it becomes available. We are working 
           collaboratively with other efforts and sharing best practices as we go.
         </Text>
         <Text>
