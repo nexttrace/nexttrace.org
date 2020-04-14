@@ -22,8 +22,21 @@ const FAQ = () => {
           or government agency. But time is of the essence, so we are starting
           immediately, and will build the org responsibly as we go.
         </Text>
+        <Heading as="h3" sx={{ fontSize: [4], fontWeight: "bold", my: 4 }}>
+          How is this related to location-based tracing apps?
+        </Heading>
+        <Text>
+          Our core thesis is that traditional contact tracing — as performed by
+          public health officials conducting extensive interviews with positive
+          cases — works well. But we simply don't have the human resources to do
+          it at scale. So, our starting point is to scale up the classic
+          approach, using digital surveys and other web-based technology 
+          to fill in the gaps, rather than invent a new approach. 
+          But as location-tracking apps and approaches mature, 
+          we will explore methods to incorporate this data 
+          into our approach.
+        </Text>
       </Box>
-      <i>More coming soon!</i>
     </Layout>
   )
 }
