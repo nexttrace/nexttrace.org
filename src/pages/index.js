@@ -29,29 +29,21 @@ const Index = () => {
           Contact tracing — at scale
         </Heading>
         <Text sx={{ mb: [3] }}>
-         When an individual is diagnosed with COVID-19, we can ask who they came
-         in contact with, or may have given it to, and encourage them to isolate
-         and get tested. That process, called {' '}
+         We know interviewing infected individuals about who they came in contact with,
+         and encouraging them to isolate, works to slow the rate of infection. This process, called {' '}
          <Link href='https://en.wikipedia.org/wiki/Contact_tracing'><b>contact tracing</b></Link>, 
-         forms of the basis of classic
-         epidemiological methods for controlling infectious disease. We know it
-         works, we just need to do it with everyone. 
+         forms of the basis of classic epidemiological methods.
         </Text>
         <Text sx={{mb: [3]}}>
-          Our first deliverable is a complete system for <b>contact tracing at
-          scale</b> that can be deployed in the short term by public health 
+          We are developing a system for survey-based <b>contact tracing at
+          scale</b> that can be deployed by public health 
           officials around the country. We are a team of scientists, epidemiologists, 
-          and software developers. We are leveraging web-based survey instrumentation,
-          messaging, and other tech components. We are using modern technology, but
-          deeply grounded in science.
-        </Text>
-        <Text sx={{mb: [3]}}>
-          Our approach does not require advanced location-based tracking to
-          work, though can incorporate it as it becomes available. We are working 
+          and software developers. Our approach does not require advanced location-based tracking, 
+          hough can incorporate data from such systems as it becomes available. We are working 
           collaboratively with other efforts and sharing best practices as we go.
         </Text>
         <Text>
-          Read more about <GatsbyLink sx={{ textDecoration: "none" }} to="/about"><Link>what we are planning</Link></GatsbyLink>.  
+          Read more about <GatsbyLink sx={{ textDecoration: "none" }} to="/about"><Link>our plan</Link></GatsbyLink>.  
         </Text>
       </Box>
       <Grid gap={[4, 5, 5]} columns={[1, 2, 3]} sx={{ my: [2] }}>
