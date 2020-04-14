@@ -93,9 +93,9 @@ const About = () => {
           Our work at present
         </Heading>
         <Text>
-          <a href="https://docs.google.com/document/d/1inQyAzC8eihq2kCz487Xb7dkjNaWtM3uzL_ceNrgpXI/edit?usp=sharing">
+          <Link target='_blank' href="https://docs.google.com/document/d/1inQyAzC8eihq2kCz487Xb7dkjNaWtM3uzL_ceNrgpXI/edit?usp=sharing">
             Read the white paper (Google Doc)
-          </a>
+          </Link>
         </Text>
         <Heading as="h3" sx={{ fontSize: [3], fontWeight: "bold", my: 4 }}>
           As our work matures
