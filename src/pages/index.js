@@ -13,31 +13,40 @@ const Index = () => {
       </Heading>
       <Box sx={{ maxWidth: "40em", my: [4] }}>
         <Heading as="h3" sx={{ fontSize: [4], lineHeight: "body", mb: [4, null, 5] }}>
-          NextTrace aims to coordinate test results and contact tracing to
-          enable public health decisions
+          NextTrace is building a contact tracing system
+          to enable public health decisions
         </Heading>
         <Text sx={{ mb: [3] }}>
-          Social distancing, if widely adopted, works. Unfortunately, it's
-          unsustainable. If we continue distancing, it may devastate our economy
-          and society. But if we stop before a vaccine is ready, it will cause a
+          Social distancing, when widely adopted, works. Unfortunately, it's
+          unsustainable. If we continue distancing, it may devastate our society.
+          But if we stop before a vaccine is ready, it will cause a
           rebound in infections because not enough of us are immune.
         </Text>
-        <Text>
-          We can manage this epidemic through contact tracing and isolation, at
-          scale, using modern technology. But it will require coordination and
-          rapid innovation.
+        <Text sx={{mb: [3]}}>
+          We need another option.
         </Text>
         <Heading as="h3" sx={{ fontSize: [3], fontWeight: "bold", my: 4 }}>
-          Here's how we plan to do it
+          Contact tracing — at scale
         </Heading>
-        <Text sx={{mb: [3]}}>
-          A massive rollout of diagnostic and serological testing is on its way.
-          We will help curate that data and build tools that guide targeted
-          interventions. We will do this collaboratively, working with existing
-          efforts and sharing best practices as we go.
+        <Text sx={{ mb: [3] }}>
+         We know that interviewing infected individuals about who they came in contact with,
+         and encouraging those contacts to isolate before they can pass the disease on to others, slows down transmission. This process, called {' '}
+         <Link href='https://en.wikipedia.org/wiki/Contact_tracing'><b>contact tracing</b></Link>,
+         is a classic epidemiological technique used in public health for controlling various diseases, such as tuberculosis, HIV, and Ebola.
         </Text>
-        <Text>
-          Read more about <GatsbyLink sx={{ textDecoration: "none" }} to="/about"><Link>what we are planning</Link></GatsbyLink>.
+        <Text sx={{mb: [3]}}>
+          We are developing a system for <b>survey-based contact tracing at
+          scale</b> that can be deployed by public health
+          officials around the United States. Our approach does not require advanced
+          location-based tracking, though could incorporate data from such
+          systems as they become available. Read more about {' '}
+          <GatsbyLink sx={{ textDecoration: "none" }} to="/about"><Link>our plan</Link></GatsbyLink>.
+        </Text>
+        <Text sx={{mb: [3]}}>
+          We are a {' '}
+          <GatsbyLink sx={{ textDecoration: "none" }} to="/about"><Link>team</Link></GatsbyLink> of scientists, epidemiologists,
+          and software developers. We are working collaboratively with
+          other efforts and sharing best practices as we go.
         </Text>
       </Box>
       <Grid gap={[4, 5, 5]} columns={[1, 2, 3]} sx={{ my: [2] }}>
@@ -53,7 +62,7 @@ const Index = () => {
            <Box sx={{backgroundColor: "primary", width: "20px", height: "20px", borderRadius: "20px"}}></Box>
           <Text sx={{ fontSize: 3, fontWeight: "bold", my: [2] }}>Trace</Text>
           <Text>
-            We will scope and build software for digital participatory contact
+            We are building a scalable survey-based approach to contact
             tracing to find and isolate cases earlier in their course of illness.
           </Text>
         </Box>
@@ -61,8 +70,8 @@ const Index = () => {
            <Box sx={{backgroundColor: "muted", width: "20px", height: "20px", borderRadius: "20px"}}></Box>
           <Text sx={{ fontSize: 3, fontWeight: "bold", my: [2] }}>Guide</Text>
           <Text>
-            We will deliver models and best practices to state and local decision
-            makers to inform containment policies at the community level.
+            We will provide tools to state and local public health departments
+            to inform containment policies at the community level.
           </Text>
         </Box>
       </Grid>

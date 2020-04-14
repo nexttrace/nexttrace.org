@@ -1,6 +1,6 @@
 import React from "react"
 import Layout from "../components/layout"
-import { Heading, Box, Text } from "theme-ui"
+import { Heading, Box, Text, Link } from "theme-ui"
 
 const FAQ = () => {
   return (
@@ -13,7 +13,9 @@ const FAQ = () => {
           This is where we'll document data, tools, and best practices.
         </Text>
         <Text>
-          <i>More coming soon!</i>
+          <Link target='_blank' href="https://docs.google.com/document/d/1inQyAzC8eihq2kCz487Xb7dkjNaWtM3uzL_ceNrgpXI/edit?usp=sharing">
+            Project white paper (Google Doc)
+          </Link>
         </Text>
       </Box>
     </Layout>
