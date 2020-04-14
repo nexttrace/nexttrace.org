@@ -40,7 +40,7 @@ const Index = () => {
           officials around the United States. Our approach does not require advanced 
           location-based tracking, though can incorporate data from such 
           systems as it becomes available. Read more about {' '}
-          <GatsbyLink sx={{ textDecoration: "none" }} to="/about"><Link>our plan</Link></GatsbyLink>.  .
+          <GatsbyLink sx={{ textDecoration: "none" }} to="/about"><Link>our plan</Link></GatsbyLink>.
         </Text>
         <Text sx={{mb: [3]}}>
           We are a {' '}
