@@ -31,10 +31,14 @@ const Team = () => {
           We will soon have dedicated staff for this new effort, focused on operational scale out,
           technical infrastructure, and community engagement. To get started,
           we are leveraging help from a volunteer team, including
+          {" "}<Link href="https://www.linkedin.com/in/leah-alpert">Leah Alpert</Link>,
           {" "}<Link href="https://twitter.com/alliblk">Alli Black</Link>,
+          {" "}<Link href="https://twitter.com/dbsmasher">Silvia Botros</Link>,          
           {" "}<Link href="https://twitter.com/rebeccaegger">Rebecca Egger</Link>,
           {" "}<Link href="https://twitter.com/thefreemanlab">Jeremy Freeman</Link>,
-          and <Link href="https://twitter.com/colinmegill">Colin Megill</Link>.
+          {" "}<Link href="https://twitter.com/marcprecipice">Marc Hedlund</Link>,
+          {" "}<Link href="https://twitter.com/colinmegill">Colin Megill</Link>,
+          and {" "}<Link href="https://twitter.com/miguelp1120">Miguel Paredes</Link>.
         </Text>
          <Heading as="h3" sx={{ fontSize: [4], fontWeight: "bold", my: 4 }}>
           Partners
