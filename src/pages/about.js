@@ -87,12 +87,16 @@ const About = () => {
           resources to keep up.
         </Text>
         <Heading as="h3" sx={{ fontSize: [4], fontWeight: "bold", my: [4] }}>
-          The plan: building critical infrastructure for public health
+          The plan
         </Heading>
         <Heading as="h3" sx={{ fontSize: [3], fontWeight: "bold", my: 4 }}>
           Our work at present
         </Heading>
-        <Text>
+          <Text sx={{mb: [2]}}>
+            Our first deliverable is a survey-based contact tracing platform 
+            that can be deployed by public health officials around the United States.
+          </Text>
+          <Text sx={{mb: [2]}}>
           <Link target='_blank' href="https://docs.google.com/document/d/1inQyAzC8eihq2kCz487Xb7dkjNaWtM3uzL_ceNrgpXI/edit?usp=sharing">
             Read the white paper (Google Doc)
           </Link>
