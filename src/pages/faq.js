@@ -19,17 +19,17 @@ const FAQ = () => {
           commitment and accountability to the public.
         </Text>
         <Heading as="h3" sx={{ fontSize: [4], fontWeight: "bold", my: 4 }}>
-          How is this related to location-based tracing apps?
+          How is this related to promixity and location-based tracing apps?
         </Heading>
         <Text>
-          Our core thesis is that traditional contact tracing — as performed by
-          public health officials conducting extensive interviews with positive
-          cases — works well. But we simply don't have the human resources to do
-          it at the scale necessary to combat COVID-19. So, our starting point is to scale up the classic
-          approach, using web-based surveys and innovative approaches to data management, rather than invent a new approach.
-          As location-tracking apps and approaches mature,
-          we will explore methods to incorporate this data
-          into our approach.
+          Our core thesis is that traditional contact tracing — as performed by public
+          health officials conducting extensive interviews with positive cases — works
+          well. But we simply don't have the human resources to do it at the scale
+          necessary to combat COVID-19. So, our starting point is to scale up the classic
+          approach, using web-based surveys and innovative approaches to data management,
+          rather than invent a new approach. There are approaches being developed to
+          implement privacy-preserving proximity-tracking. As these approaches mature, we
+          will explore methods to incorporate this data into our approach.
         </Text>
       </Box>
     </Layout>
