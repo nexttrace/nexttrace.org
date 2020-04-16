@@ -44,7 +44,7 @@ const Index = () => {
         </Text>
         <Text sx={{mb: [3]}}>
           We are a {' '}
-          <GatsbyLink sx={{ textDecoration: "none" }} to="/about"><Link>team</Link></GatsbyLink> of scientists, epidemiologists,
+          <GatsbyLink sx={{ textDecoration: "none" }} to="/team"><Link>team</Link></GatsbyLink> of scientists, epidemiologists,
           and software developers. We are working collaboratively with
           other efforts and sharing best practices as we go.
         </Text>
