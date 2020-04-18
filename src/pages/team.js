@@ -38,7 +38,8 @@ const Team = () => {
           {" "}<Link href="https://twitter.com/thefreemanlab">Jeremy Freeman</Link>,
           {" "}<Link href="https://twitter.com/marcprecipice">Marc Hedlund</Link>,
           {" "}<Link href="https://twitter.com/colinmegill">Colin Megill</Link>,
-          and {" "}<Link href="https://twitter.com/miguelp1120">Miguel Paredes</Link>.
+          {" "}<Link href="https://twitter.com/miguelp1120">Miguel Paredes</Link>,
+          and {" "}<Link href="https://twitter.com/trs">Thomas Sibley</Link>.
         </Text>
          <Heading as="h3" sx={{ fontSize: [4], fontWeight: "bold", my: 4 }}>
           Partners
